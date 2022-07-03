@@ -1,2 +1,2 @@
 # Etch-a-Sketch
- Etxh a sketch application
+ Etch a sketch application

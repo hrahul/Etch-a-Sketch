@@ -1,0 +1,19 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Press Start 2P', cursive;
+}
+.container{
+    display:flex;
+}
+.header{
+    display: flex;
+    font-size: medium;
+    justify-content: center;
+    margin: auto;
+}
+.grid{
+    display: grid;
+    background: #000;
+    grid-template-columns: auto auto auto;
+  }
