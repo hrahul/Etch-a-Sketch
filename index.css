@@ -5,15 +5,55 @@ body{
 }
 .container{
     display:flex;
+    border: 2px solid grey;
+    height: 10vh;
 }
+
 .header{
-    display: flex;
     font-size: medium;
-    justify-content: center;
+    justify-content: center ;
+    align-items: center;
     margin: auto;
 }
+
 .grid{
+    width: 500px;
+    height: 500px;
     display: grid;
     background: #000;
-    grid-template-columns: auto auto auto;
+  }
+
+.main{
+    display: flex;
+    border: solid grey 2px;
+    justify-content: center;
+    align-items: center;
+    
+}
+.panel{
+    display: flex;
+    flex-direction: column;
+    align-items: center ;
+}
+/*input[type = color]
+{
+    border: none;
+}
+
+.colorPicker{
+    padding: 0;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+} */
+input[type=color]::-webkit-color-swatch {
+    border: none;
+    border-radius: 50%;
+    padding: 0;
+  }
+  
+  input[type=color]::-webkit-color-swatch-wrapper {
+      border: none;
+      border-radius: 50%;
+      padding: 0;
   }
