@@ -28,6 +28,12 @@ function createDiv(){
         e.target.style.backgroundColor = setColor();
     });
     div.style.backgroundColor = 'white';
+
+    //for clearing the grid 
+    let clear = document.querySelector(".clearBtn");
+    clear.addEventListener("click",e=>{
+    div.style.backgroundColor = 'white';
+    })
     return div;
 }
 
@@ -46,9 +52,3 @@ function changeSize(size)
     rangeValue.innerHTML = `${size} * ${size} `;
 }
 
-let clearBtn = document.querySelector('.clearBtn');
-clearBtn.addEventListener("click",e=>{
-    let slider = document.querySelector(".slider");
-    createGrid(slider.value);
-    console.log(slider.value);
-})
