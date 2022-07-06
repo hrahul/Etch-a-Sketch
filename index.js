@@ -52,3 +52,18 @@ function changeSize(size)
     rangeValue.innerHTML = `${size} * ${size} `;
 }
 
+function erase()
+{
+    // const grid = document.querySelector('.grid');
+    // let squares = grid.querySelectorAll('div');
+
+    // squares.forEach(div => {
+    //     div.addEventListener("mouseover",e =>{
+    //         e.target.style.backgroundColor = "white";
+    //     })
+        
+    // });
+    document.querySelector('.colorPicker').value = "#FFFFFF";
+    console.log(document.querySelector('.colorPicker').value);
+
+}

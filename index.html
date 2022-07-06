@@ -26,17 +26,17 @@
         <div class="panel">
             <div class="colorCard">
                 <span>Pick Color : </span>
-                <input type="color" class="colorPicker" value="black" oninput="setColor()">
+                <input type="color" class="colorPicker" value="#000000" oninput="setColor()">
             </div>
             
             <button class="clearBtn button ">Clear</button>
-            <button class="erase button">Erase</button>
+            <button class="erase button" onclick="erase()">Erase</button>
             <div class="slidecontainer">
                 <input type="range" min="1" max="50" value="50" class="slider" oninput="changeSize(this.value)">
                 <div class="sizeText">
                     <p>Grid size : </p>
                     <div class="rangeVal">
-    
+                            50 * 50
                     </div>
                 </div>
             </div>
